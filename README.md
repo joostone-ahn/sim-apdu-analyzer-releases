@@ -25,19 +25,13 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 ### 🌐 Try Online
 
-**[Demo on Hugging Face Spaces](https://huggingface.co/spaces/Joostone/sim-apdu-analyzer)** — no installation required
+**[Demo on Hugging Face Spaces](https://huggingface.co/spaces/Joostone/sim-apdu-analyzer)**
 
-### 💻 Run Locally
+### 💻 Download
 
-No Python installation required.
+Download the latest exe and user guides from [Releases](../../releases).
 
-Download the latest exe from [Releases](../../releases) and run it directly.
-
----
-
-## 📖 How to Use
-
-See the User Guide PDF included in the [Release](../../releases) for detailed instructions.
+See the User Guide PDF for detailed usage instructions.
 
 ---
 
