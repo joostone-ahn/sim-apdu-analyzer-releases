@@ -37,13 +37,7 @@ Download the latest exe from [Releases](../../releases) and run it directly.
 
 ## 📖 How to Use
 
-1. Click **📁 Open Log File** or **📋 Paste Log** to load a modem diagnostic log
-2. Select **SIM1** or **SIM2**, then click **🔍 Analyze**
-3. Browse results in the **APDU** tab (command details) and **File System** tab (EF contents)
-
-Supported formats: QXDM/QCAT (Qualcomm), Shannon DM (Samsung), ELT (MediaTek)
-
-> For detailed instructions, see the User Guide PDF included in the release.
+See the User Guide PDF included in the [Release](../../releases) for detailed instructions.
 
 ---
 
