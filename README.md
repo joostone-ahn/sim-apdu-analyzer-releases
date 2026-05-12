@@ -29,9 +29,15 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 ### 💻 Download
 
-Download the latest exe and user guides from [Releases](../../releases).
+Download the latest exe from [Releases](../../releases).
 
-See the User Guide PDF for detailed usage instructions.
+---
+
+## 📖 How to Use
+
+See the User Guide for detailed instructions:
+- [English](manual/user_guide_en_v1.0.0.md)
+- [한국어](manual/user_guide_kr_v1.0.0.md)
 
 ---
 
