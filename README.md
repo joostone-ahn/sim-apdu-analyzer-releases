@@ -20,6 +20,14 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 ---
 
+## 🌐 Online Demo
+
+**[Try Online Demo](https://sim-apdu-analyzer-fanj.onrender.com/)**
+
+> ⚠️ **Note**: Free tier instance sleeps after 15 minutes of inactivity. First access may take 30–60 seconds for cold start.
+
+---
+
 ## 🚀 Download
 
 Download the latest exe from [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases).
