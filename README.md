@@ -29,15 +29,48 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 ### 💻 Download
 
-Download the latest exe from [Releases](../../releases).
+Download the latest exe from [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases).
 
 ---
 
 ## 📖 How to Use
 
 See the User Guide for detailed instructions:
-- [English](manual/user_guide_en_v1.0.0.md)
-- [한국어](manual/user_guide_kr_v1.0.0.md)
+- [English](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/blob/main/manual/user_guide_en_v1.0.0.md)
+- [한국어](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/blob/main/manual/user_guide_kr_v1.0.0.md)
+
+---
+
+## 📂 Supported Log Formats
+
+Sample log files for each format are included in [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases) as `sample_logs.zip`.
+
+**QXDM / QXDM Pro** (Qualcomm)
+```
+[0x19B7]  07:18:00.539235  UIM APDU  1  SLOT_1 Type = TX Data = { 80 F2 00 0C 00  }
+[0x19B7]  07:18:00.552341  UIM APDU  1  SLOT_1 Type = RX Data = { F2 84 10 A0 00 00 00 87 10 02 FF ... 90 00  }
+```
+
+**QCAT** (Qualcomm)
+```
+2026 Apr 14  00:02:24.427  [70]  0x19B7  UIM APDU
+Subscription ID = 1
+Slot Id = SLOT_1
+Message Type = TX
+TX Data = { 00 A4 00 04 02  }
+```
+
+**Shannon DM** (LSI Exynos)
+```
+14:31:20.231  14:31:29.450810 USIM_MAIN  DumpPrivacy  U0  [USIM_0] [UICC APDU CMD] Hex Dump -> : 00 A4 04 00 10 A0 00 ...
+14:31:20.231  14:31:29.462041 USIM_MAIN  DumpPrivacy  U0  [USIM_0] [UICC APDU RSP] Hex Dump -> : A4 3F 00 62 33 82 02 ...
+```
+
+**ELT** (MediaTek)
+```
+6539, 0, 22416344, 19:46:43:980 2026/04/17, MOD_SIM, , MOD_SIM_BASELINE_UH, APDU_tx 0: 00 A4 00 04 02 3F 00 00
+6568, 0, 22416957, 19:46:44:220 2026/04/17, MOD_SIM, , MOD_SIM_BASELINE_UH, APDU_rx 0: 62 33 82 02 78 21 83 02 3F 00 ...
+```
 
 ---
 
