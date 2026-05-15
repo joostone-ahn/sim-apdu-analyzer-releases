@@ -24,9 +24,9 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 **[Try Online Demo](https://sim-apdu-analyzer-0n1g.onrender.com/)**
 
-> ⚠️ **Note**: Free tier instance sleeps after 15 minutes of inactivity. First access may take 30–60 seconds for cold start.
->
 > 💡 **Tip**: Click **📂 Samples** in the top-right corner to load a sample log, then click **Analyze** to try it out.
+>
+> ⚠️ **Note**: Instance may sleep after inactivity. First access can take 30–60s to wake up.
 
 ---
 
