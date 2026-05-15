@@ -2,7 +2,6 @@
 
 A web-based SIM/eSIM APDU log analysis tool.
 
-[![Demo](https://img.shields.io/badge/🤗%20Demo-Hugging%20Face-yellow.svg)](https://huggingface.co/spaces/Joostone/sim-apdu-analyzer)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 
 ---
@@ -21,13 +20,7 @@ Traditional SIM tracers (e.g., COMPRION MiniMove) rely on physical contact inter
 
 ---
 
-## 🚀 Quick Start
-
-### 🌐 Try Online
-
-**[Demo on Hugging Face Spaces](https://huggingface.co/spaces/Joostone/sim-apdu-analyzer)**
-
-### 💻 Download
+## 🚀 Download
 
 Download the latest exe from [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases).
 
