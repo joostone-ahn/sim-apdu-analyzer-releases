@@ -12,6 +12,7 @@
 6. [APDU 탭 — Transport Layer](#6-apdu-탭--transport-layer-우측-하단)
 7. [File System 탭 — 파일 시스템 트리](#7-file-system-탭--파일-시스템-트리-좌측)
 8. [File System 탭 — File Contents](#8-file-system-탭--file-contents-우측)
+9. [개정 이력](#개정-이력)
 
 ---
 
@@ -20,7 +21,7 @@
 1. `SIM-APDU-Analyzer.exe` 파일을 더블클릭합니다
 2. 콘솔 창이 열리며 서버가 시작됩니다
 3. 브라우저가 자동으로 열립니다
-4. 화면 상단에 보라색 헤더와 "🔍 SIM APDU Analyzer v1.0.0"이 표시됩니다
+4. 화면 상단에 보라색 헤더와 "🔍 SIM APDU Analyzer v1.0.3"이 표시됩니다
 
 > 콘솔 창을 닫으면 프로그램이 종료됩니다. 사용 중에는 열어두세요.  
 > 브라우저가 자동으로 열리지 않으면 http://127.0.0.1:8090 으로 접속하세요.
@@ -28,6 +29,8 @@
 ---
 
 ## 2. 로그 불러오기
+
+> 💡 **샘플 로그**: 처음 사용하시는 경우, [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases) 페이지에서 `sample_logs.zip`을 다운로드하세요. 각 로그 포맷(QXDM, Shannon DM, ELT)별 예제 파일이 포함되어 있어 프로그램 동작을 바로 확인할 수 있습니다.
 
 상단 컨트롤 패널에 두 개의 버튼이 있습니다.
 
@@ -326,6 +329,17 @@ URSP 규칙을 계층 트리 형태로 표시합니다. 각 규칙의 Traffic De
 - 클릭하면 현재 표시 중인 내용이 클립보드에 복사됩니다
 - Raw 모드: 원본 hex 문자열 그대로 복사
 - Decode 모드: 테이블은 탭 구분(Excel 붙여넣기 가능), 텍스트는 그대로 복사
+
+---
+
+## 개정 이력
+
+| 버전 | 날짜 | 변경 내용 |
+|------|------|----------|
+| v1.0.0 | 2026-05-15 | 초기 릴리즈 |
+| v1.0.1 | 2026-05-16 | GET DATA(INS=CB) 디코딩, File System 탭 통합, T=0 파싱 수정, 번들 최적화 |
+| v1.0.2 | 2026-05-16 | OTA 오탐지 수정, READ BINARY 오프셋 계산 수정, 온라인 데모 |
+| v1.0.3 | 2026-05-16 | PLMN 테이블 256바이트 초과 파싱 수정, AcT hex+기술명 표시, PLMN EF 확장 |
 
 ---
 

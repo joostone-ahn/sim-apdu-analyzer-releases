@@ -12,6 +12,7 @@
 6. [APDU Tab — Transport Layer](#6-apdu-tab--transport-layer-right-bottom)
 7. [File System Tab — File System Tree](#7-file-system-tab--file-system-tree-left)
 8. [File System Tab — File Contents](#8-file-system-tab--file-contents-right)
+9. [Revision History](#revision-history)
 
 ---
 
@@ -20,7 +21,7 @@
 1. Double-click `SIM-APDU-Analyzer.exe`
 2. A console window opens and the server starts
 3. Your browser opens automatically
-4. The page shows a purple header with "🔍 SIM APDU Analyzer v1.0.0"
+4. The page shows a purple header with "🔍 SIM APDU Analyzer v1.0.3"
 
 > Keep the console window open while using the tool. Closing it stops the server.  
 > If the browser doesn't open, navigate to http://127.0.0.1:8090 manually.
@@ -28,6 +29,8 @@
 ---
 
 ## 2. Loading a Log
+
+> 💡 **Sample Logs**: If you're trying the tool for the first time, download `sample_logs.zip` from the [Releases](https://github.com/joostone-ahn/sim-apdu-analyzer-releases/releases) page. It includes example files for each log format (QXDM, Shannon DM, ELT) so you can test the tool right away.
 
 The control panel at the top has two input buttons.
 
@@ -326,6 +329,17 @@ EFs not covered by the above views are decoded via pySim and displayed as JSON (
 - Copies current view to clipboard
 - Raw mode: copies original hex string as-is
 - Decode mode: tables copied as tab-separated (Excel-ready), text copied as-is
+
+---
+
+## Revision History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| v1.0.0 | 2026-05-15 | Initial release |
+| v1.0.1 | 2026-05-16 | GET DATA (INS=CB) decoding, File System tab integration, T=0 parsing fix, bundle optimization |
+| v1.0.2 | 2026-05-16 | Fix false OTA detection, fix READ BINARY offset calculation, online demo |
+| v1.0.3 | 2026-05-16 | Fix PLMN table parsing for multi-chunk READ (>256 bytes), AcT hex+technology display, extended PLMN EF coverage |
 
 ---
 
